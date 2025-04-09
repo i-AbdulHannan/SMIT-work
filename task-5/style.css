@@ -1,0 +1,66 @@
+body {
+    background: #e0f7fa;
+    color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .cv-wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-panel {
+    background: #0530ad;
+    color: #ffffff;
+    width: 35%;
+    padding: 40px 30px;
+  }
+
+  .right-panel {
+    background: #fafafa;
+    color: #212121;
+    width: 65%;
+    padding: 40px;
+  }
+
+  .left-panel h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .left-panel p {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .section h2 {
+    color: #0530ad;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: #b2dfdb;
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .section p, .section ul {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  ul {
+    padding-left: 18px;
+  }
+
+  .skills ul {
+    list-style-type: square;
+  }
